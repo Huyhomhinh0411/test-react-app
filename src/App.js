@@ -4,6 +4,7 @@ import './App.css';
 import React, { useState, useEffect } from "react";
 import mqtt from "mqtt";
 import axios from "axios"; // Import axios để gửi yêu cầu HTTP
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   const [mqttClient, setMqttClient] = useState(null);
